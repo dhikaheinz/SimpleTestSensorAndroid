@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ced8e1"
+    android:padding="20dp"
+    tools:context=".SensorPressureActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="SENSOR TEST PRESSURE"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure sensor adalah sensor yang digunakan untuk mengukur tekanan udara ambien di hPa atau mbar. Sering kali sensor ini disebut sebagai barometric sensor."
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implementasi dan manfaat dari pressure sensor dapat Anda gunakan untuk mengukur tekanan udara. Sensor ini sangat penting digunakan buat Anda yang bekerja sebagai team SAR atau pecinta alam."
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#67bdcc"
+        android:textAlignment="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:text="xValue :"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
