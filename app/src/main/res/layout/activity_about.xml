@@ -49,6 +49,12 @@
             android:text="1. M RIZAL FIRDAUS - 17.5.00052"
             android:textSize="15dp"/>
 
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks!"
+            android:textSize="15dp"/>
+
     </LinearLayout>
 
 
